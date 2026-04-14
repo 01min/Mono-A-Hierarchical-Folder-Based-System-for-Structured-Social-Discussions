@@ -1,8 +1,69 @@
 # Mono: Socially Private. Locally Yours. 📱
 
+[English](#english) | [繁體中文](#繁體中文)
+
+---
+
+<a name="english"></a>
+# English
+
 ![Mono Logo](assets/logo.png)
 
-**Mono** 是一款以「隱私」與「深度思考」為核心的極簡社群軟體。我們相信，真正的對話不應該建立在按讚數或數據監控之上，而應該存在於你真正信任的空間裡。
+**Mono** is a decentralized, local-first text streaming platform designed to redefine how we interact with social content. Moving away from the chaotic and unstructured feeds of traditional social media, Mono introduces **hierarchical folders (Spaces)**. This unique approach allows you to organize your social thoughts as intuitively as a knowledge base, bringing unparalleled order and convenience to fragmented text discussions.
+
+We believe that true conversations shouldn't be built on likes or data monitoring, but should exist within spaces you truly trust and manage with precision.
+
+---
+
+## ✨ Key Features
+
+- **🔒 Local-First**: Your personal space (General Space) data is stored entirely on your device and never touches any cloud server.
+- **🛡️ E2E Encrypted Communities**: All shared spaces utilize end-to-end encryption technology; only members within the space can unlock the content.
+- **📁 Hierarchical Spaces**: A first-of-its-kind nested discussion space, allowing you to manage your discussions as orderly as computer folders.
+- **🚫 Reject Social Anxiety**: We have abolished the "Like" function, returning social interaction to simple text discussions and the exchange of thoughts.
+- **💎 Premium Aesthetics**: The entire interface features Night Mode and Glassmorphism design.
+
+---
+
+## 🚀 Coming Soon
+
+- **Google Play Store**: Expected to launch officially in July - August 2026.
+- **Beta Testing**: You can now download the APK via GitHub Releases for early access.
+
+---
+
+## 🛠️ Technical Architecture
+
+- **Framework**: [Flutter](https://flutter.dev)
+- **Database**: [Hive](https://pub.dev/packages/hive) (High-performance local storage)
+- **Backend Service**: [Supabase](https://supabase.com) (Optional cloud sync and E2E management)
+- **State Management**: [Provider](https://pub.dev/packages/provider)
+- **Routing**: [GoRouter](https://pub.dev/packages/go_router)
+
+---
+
+## 📥 Installation Instructions
+
+1. Go to the [Releases](https://github.com/01min/01min.github.io/releases) page of this project.
+2. Download the latest `mono.apk` file.
+3. Tap to install on your Android device.
+
+---
+
+## 🌐 Official Website
+
+Visit our dedicated marketing site: [01min.github.io](https://01min.github.io)
+
+---
+
+<a name="繁體中文"></a>
+# 繁體中文
+
+![Mono Logo](assets/logo.png)
+
+**Mono** 是一個去中心化的、本地優先的文字串流平台。與傳統社交媒體雜覽無章的動態牆不同，Mono 引入了**階層式資料夾（Spaces）**的概念。這種獨特的設計讓你能夠像管理個人知識庫一樣，井然有序地整理你的動態與討論，為碎片化的文字交流帶來極致的便利性與條理。
+
+我們相信，真正的對話不應該建立在按讚數或數據監控之上，而應該存在於你真正信任且能精準管理的空間裡。
 
 ---
 
