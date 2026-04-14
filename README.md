@@ -17,9 +17,7 @@ We believe that true conversations shouldn't be built on likes or data monitorin
 
 ## 📸 Showcase
 
-| Creating Discussions | Inviting Friends |
-| :---: | :---: |
-| ![Create Post](website/creat_post.gif) | ![Invite Friend](website/invite_friend.gif) |
+[View Full Feature Demonstration on our Official Website »](https://01min.github.io)
 
 ---
 
@@ -77,9 +75,7 @@ Visit our dedicated marketing site: [01min.github.io](https://01min.github.io)
 
 ## 📸 功能展示
 
-| 建立串流內容 | 邀請好友加入 |
-| :---: | :---: |
-| ![Create Post](website/creat_post.gif) | ![Invite Friend](website/invite_friend.gif) |
+[前往官方網站查看完整動態功能展示 »](https://01min.github.io)
 
 ---
 
