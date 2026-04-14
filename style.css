@@ -206,6 +206,46 @@ nav .container {
 }
 
 /* Footer */
+.showcase {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.showcase-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.showcase-card {
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 40px;
+    padding: 20px;
+    overflow: hidden;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.showcase-card:hover {
+    transform: scale(1.02);
+    border-color: var(--accent);
+}
+
+.showcase-card img {
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
+
+.showcase-card h4 {
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: var(--secondary);
+    text-transform: uppercase;
+}
+
 footer {
     padding: 64px 0;
     border-top: 1px solid var(--glass-border);

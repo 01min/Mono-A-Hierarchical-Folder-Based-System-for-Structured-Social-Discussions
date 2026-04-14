@@ -15,6 +15,14 @@ We believe that true conversations shouldn't be built on likes or data monitorin
 
 ---
 
+## 📸 Showcase
+
+| Creating Discussions | Inviting Friends |
+| :---: | :---: |
+| ![Create Post](website/creat_post.gif) | ![Invite Friend](website/invite_friend.gif) |
+
+---
+
 ## ✨ Key Features
 
 - **🔒 Local-First**: Your personal space (General Space) data is stored entirely on your device and never touches any cloud server.
@@ -63,7 +71,15 @@ Visit our dedicated marketing site: [01min.github.io](https://01min.github.io)
 
 **Mono** 是一個去中心化的、本地優先的文字串流平台。與傳統社交媒體雜覽無章的動態牆不同，Mono 引入了**階層式資料夾（Spaces）**的概念。這種獨特的設計讓你能夠像管理個人知識庫一樣，井然有序地整理你的動態與討論，為碎片化的文字交流帶來極致的便利性與條理。
 
-我們相信，真正的對話不應該建立在按讚數或數據監控之上，而應該存在於你真正信任且能精準管理的空間裡。
+我們 believe（相信），真正的對話不應該建立在按讚數或數據監控之上，而應該存在於你真正信任且能精準管理的空間裡。
+
+---
+
+## 📸 功能展示
+
+| 建立串流內容 | 邀請好友加入 |
+| :---: | :---: |
+| ![Create Post](website/creat_post.gif) | ![Invite Friend](website/invite_friend.gif) |
 
 ---
 
