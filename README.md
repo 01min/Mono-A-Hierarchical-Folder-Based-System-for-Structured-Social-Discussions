@@ -116,6 +116,18 @@ For developers or organizations wishing to deploy their own instances of Mono:
 > [!IMPORTANT]
 > To utilize a private database infrastructure with a custom group of users, you MUST compile your own APK using your unique backend credentials. Using the author's default APK will link your device to the author's managed cloud infrastructure.
 
+### 5.3 Operational Caveats and "Key Continuity"
+
+To maintain the architectural integrity of the Mono ecosystem, the following operational requirements must be strictly observed:
+
+**1. The Default Cloud Instance Warning**
+The official binary (APK/IPA) accessible via the project's website is pre-configured with the author's managed Supabase infrastructure. By utilizing this binary, you are participating in a **Shared Default Database**. While your messages are E2E encrypted and unreadable by the administrator, your data resides on shared hardware. For true institutional or private isolation, you must transition to the "Bring Your Own Backend" model described in Section 5.2.
+
+**2. Version and Key Continuity Requirement**
+End-to-end encryption and real-time synchronization in Mono are dependent on "Key Version Continuity." 
+- **The Group Rule**: For two or more users to form a functioning community, they **MUST** utilize identical backend credentials (`SUPABASE_URL` and `SUPABASE_ANON_KEY`).
+- **Administrative Responsibility**: If you are acting as a community administrator, you must ensure that all invited members are utilizing a build compiled with your specific backend configuration. Users running the default APK from the website will NOT be able to sync with a private, self-hosted community, as their clients will be pointing toward the author's database.
+
 ---
 
 ## Section 6: Data Models and Information Taxonomy

@@ -273,4 +273,7 @@ footer {
     .features-grid {
         grid-template-columns: 1fr;
     }
+    #deployment .feature-card > div:nth-child(2) {
+        grid-template-columns: 1fr !important;
+    }
 }
