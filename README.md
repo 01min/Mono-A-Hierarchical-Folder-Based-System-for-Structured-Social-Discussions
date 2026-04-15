@@ -17,7 +17,7 @@ The primary technical objectives of the Mono Project are as follows:
 
 ## 📸 Showcase
 
-| **資料夾空間** | **主頁面** | **設定頁面** |
+| **Hierarchical Spaces** | **Main Discussion Feed** | **Secure Settings** |
 | :---: | :---: | :---: |
 | ![Hierarchical Spaces](assets/docs/20550_0.jpg) | ![Main Discussion Feed](assets/docs/20551_0.jpg) | ![Secure Settings](assets/docs/20552.jpg) |
 | *Visualizing hierarchical depth* | *Real-time E2E text streaming* | *Hardware-backed security* |
