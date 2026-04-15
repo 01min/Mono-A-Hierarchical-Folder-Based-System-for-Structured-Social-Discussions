@@ -48,7 +48,25 @@ We believe that true conversations shouldn't be built on likes or data monitorin
 
 ---
 
-## 📥 Installation Instructions
+## 🛠️ Getting Started (English)
+
+### Environment Setup
+To protect sensitive API keys, this project uses `flutter_dotenv`.
+1. Copy `.env.example` to a new file named `.env`.
+2. Fill in your own Supabase credentials in the `.env` file.
+   ```text
+   SUPABASE_URL=your_supabase_url
+   SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```
+3. The `.env` file is already listed in `.gitignore` to prevent it from being pushed to GitHub.
+
+---
+
+---
+
+---
+
+## 🛠️ Technical Architecture
 
 1. Go to the [Releases](https://github.com/01min/01min.github.io/releases) page of this project.
 2. Download the latest `mono.apk` file.
@@ -103,6 +121,22 @@ Visit our dedicated marketing site: [01min.github.io](https://01min.github.io)
 - **Backend Service**: [Supabase](https://supabase.com) (選擇性的雲端同步與 E2E 管理)
 - **State Management**: [Provider](https://pub.dev/packages/provider)
 - **Routing**: [GoRouter](https://pub.dev/packages/go_router)
+
+---
+
+## 🛠️ 開始使用 (繁體中文)
+
+### 環境設定
+為了保護敏感的 API 金鑰，本專案使用 `flutter_dotenv`。
+1. 將 `.env.example` 複製並重新命名為 `.env`。
+2. 在 `.env` 檔案中填入您自己的 Supabase 憑證。
+   ```text
+   SUPABASE_URL=您的_supabase_網址
+   SUPABASE_ANON_KEY=您的_supabase_匿名金鑰
+   ```
+3. `.env` 檔案已列入 `.gitignore`，以防止其被推送到 GitHub。
+
+---
 
 ---
 
