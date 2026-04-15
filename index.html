@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mono — Socially Private. Locally Yours.</title>
+    <meta name="description" content="Mono is a minimalist, local-first social network. Encrypted, private, and designed for focused discussions.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Mono Logo" style="width: 32px; height: 32px; border-radius: 8px;">
+                <span>MONO</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#security">Security</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="brand-logo reveal">
+                <img src="assets/logo.png" alt="Mono Logo" style="width: 120px; height: 120px; border-radius: 30px; margin-bottom: 40px; box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+            </div>
+            <h1 class="reveal">Mono</h1>
+            <p class="reveal">Socially Private. Locally Yours.<br><span style="color: var(--accent); font-weight: 800; font-size: 14px; letter-spacing: 2px;">COMING TO GOOGLE PLAY | JULY - AUGUST 2026</span></p>
+            <div class="cta reveal">
+                <a href="https://github.com/01min/01min.github.io/releases/download/v1.0.0-beta/mono.apk" class="btn btn-primary" style="margin-right: 12px;">Download APK</a>
+                <a href="#features" class="btn btn-outline" style="border: 1px solid var(--glass-border); color: white;">Learn More</a>
+            </div>
+            
+
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <div class="showcase-grid">
+                <div class="showcase-card reveal">
+                    <img src="creat_post.gif" alt="Creating Discussions">
+                    <h4>Flow: Creating Discussions</h4>
+                </div>
+                <div class="showcase-card reveal">
+                    <img src="invite_friend.gif" alt="Inviting Friends">
+                    <h4>Invite: Shared Communities</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>E2E Encrypted</h3>
+                    <p>Every Space you join is protected by industry-standard encryption. Only members of the space can decrypt and read the threads.</p>
+                </div>
+                
+                <div class="feature-card reveal">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h3>Nested Spaces</h3>
+                    <p>Organize your thoughts with hierarchical spaces. Create a parent space and drop specialized sub-folders to keep discussions focused.</p>
+                </div>
+
+                <div class="feature-card reveal">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>Local First</h3>
+                    <p>Your "General" space never touches the cloud. Everything is stored on your device using a high-performance local database.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="deployment" class="features" style="padding-top: 0;">
+        <div class="container">
+            <div class="feature-card reveal" style="max-width: 100%; border: 1px solid rgba(41, 98, 255, 0.3); background: linear-gradient(135deg, rgba(41, 98, 255, 0.05) 0%, rgba(0, 0, 0, 0) 100%);">
+                <h3 style="color: var(--accent); margin-bottom: 24px;">Technical Sovereignty Notice</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+                    <div>
+                        <h5 style="color: white; margin-bottom: 12px; font-size: 16px;">The Default Community</h5>
+                        <p style="font-size: 14px; opacity: 0.8; margin-bottom: 20px;">The Official APK provided above is pre-configured with a shared cloud backend. While your communications are E2E encrypted, your data resides on the main Mono infrastructure. This is ideal for public testing and open community participation.</p>
+                        <ul style="font-size: 13px; color: var(--secondary); list-style: none; padding: 0;">
+                            <li style="margin-bottom: 8px;">• Optimized for immediate hierarchical thread exploration</li>
+                            <li style="margin-bottom: 8px;">• Shared with the global Mono research community</li>
+                            <li style="margin-bottom: 8px;">• Zero-configuration required for instant messaging</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5 style="color: white; margin-bottom: 12px; font-size: 16px;">Private Deployments</h5>
+                        <p style="font-size: 14px; opacity: 0.8; margin-bottom: 20px;">For absolute independence, we recommend building your own binary. To create a private community with friends, ensure all participants use an APK compiled with your unique <strong>SUPABASE_URL</strong> and <strong>ANON_KEY</strong>. This ensures total data isolation from the default instance.</p>
+                        <ul style="font-size: 13px; color: var(--secondary); list-style: none; padding: 0;">
+                            <li style="margin-bottom: 8px;">• Total isolation from the shared community database</li>
+                            <li style="margin-bottom: 8px;">• User-controlled storage and synchronization policy</li>
+                            <li style="margin-bottom: 8px;">• Ideal for private organizations and close-knit groups</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--glass-border); display: flex; align-items: center; gap: 12px;">
+                    <div style="width: 8px; height: 8px; background: var(--accent); border-radius: 50%;"></div>
+                    <span style="font-size: 12px; letter-spacing: 1px; color: var(--secondary);">PRO TIP: KEY CONTINUITY IS REQUIRED FOR PRIVATE SYNC</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mono Social App. Built with Privacy by Design.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
