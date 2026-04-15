@@ -15,6 +15,17 @@ The primary technical objectives of the Mono Project are as follows:
 
 ---
 
+## 📸 Showcase
+
+| **Flow: Creating Discussions** | **Invite: Shared Communities** |
+| :---: | :---: |
+| ![Creating Discussions](assets/docs/creat_post.gif) | ![Inviting Friends](assets/docs/invite_friend.gif) |
+| *Visualizing hierarchical depth* | *Real-time sync and invitation* |
+
+[View Full Feature Demonstration on our Official Website »](https://01min.github.io/Mono/)
+
+---
+
 ## Section 2: Technological Stack and Framework Analysis
 
 The Mono application is built upon a modern, high-performance technological stack designed for cross-platform compatibility and efficient resource utilization.
