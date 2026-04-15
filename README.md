@@ -17,10 +17,10 @@ The primary technical objectives of the Mono Project are as follows:
 
 ## 📸 Showcase
 
-| **Flow: Creating Discussions** | **Invite: Shared Communities** |
-| :---: | :---: |
-| ![Creating Discussions](assets/docs/creat_post.gif) | ![Inviting Friends](assets/docs/invite_friend.gif) |
-| *Visualizing hierarchical depth* | *Real-time sync and invitation* |
+| **資料夾空間** | **主頁面** | **設定頁面** |
+| :---: | :---: | :---: |
+| ![Hierarchical Spaces](assets/docs/20550_0.jpg) | ![Main Discussion Feed](assets/docs/20551_0.jpg) | ![Secure Settings](assets/docs/20552.jpg) |
+| *Visualizing hierarchical depth* | *Real-time E2E text streaming* | *Hardware-backed security* |
 
 [View Full Feature Demonstration on our Official Website »](https://01min.github.io/Mono/)
 
